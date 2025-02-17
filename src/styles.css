@@ -1,0 +1,54 @@
+
+html{
+    font-size:16px;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background: url('../restaurant.jpg');
+    background-size:cover;
+}
+#content{
+    width:70vw;
+    height:100vh;
+    background-color:bisque;
+    margin:auto;
+    padding:1rem;
+    margin-top:2rem;
+    color:darkred;
+}
+.centerText{
+    text-align:center;
+}
+li{
+    list-style: none;
+}
+header nav button{
+  padding:0.3rem;
+  font-size:1rem;
+
+}
+header{
+    background-color: rgb(238, 197, 146);
+}
+header nav{
+    display:flex;
+    justify-content: center;
+   
+}
+.menuBoard{
+    border:3px solid darkred;
+    padding:1rem;
+    display:flex;
+    justify-content:space-between;
+}
+.homeBoard{
+    border:3px solid darkred;
+    padding:1rem;
+}
+.strong{
+    font-weight:bold;
+}
