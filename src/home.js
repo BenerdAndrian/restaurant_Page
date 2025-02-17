@@ -1,8 +1,12 @@
+import imaging from "../restaurant1.jpg"
 export function DOMManipulationForContent(){
     const theContent=document.getElementById("content")
     theContent.innerHTML=""
     const h1=document.createElement("h1");
     h1.textContent="Welcome To My New Restaurant";
+    const image=document.createElement("img");
+    image.src=`${imaging}`
+    theContent.appendChild(image)
     h1.setAttribute("class","centerText")
     theContent.appendChild(h1);
     const array=["Introductory","Hours","Location"]
